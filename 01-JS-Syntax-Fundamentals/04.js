@@ -41,6 +41,4 @@ function monthChecker(num) {
     }
 }
 
-monthChecker(0)
-monthChecker(5)
-monthChecker(6)
+

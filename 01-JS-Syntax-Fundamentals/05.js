@@ -21,4 +21,19 @@ function mathFunc(n1, n2, operation) {
     }
 }
 
-mathFunc(2, 3, '+')
+
+
+function mathFuncTwo(n1, n2, operation) {
+    let result;
+
+    switch (operation) {
+        case '+': result = n1 + n2; break;
+        case '-': result = n1 - n2; break;
+        case '/': result = n1 / n2; break;
+        case '*': result = n1 * n2; break;
+        case '%': result = n1 % n2; break;
+        case '**': result = n1 ** n2; break;
+    }
+
+    console.log(result);
+}
