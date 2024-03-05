@@ -5,4 +5,4 @@ function solve(exampleArray) {
     console.log(firstElement + lastElement);
 }
 
-solve([1, 2, 3, 4]);
+// solve([1, 2, 3, 4]);

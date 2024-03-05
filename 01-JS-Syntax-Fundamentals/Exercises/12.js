@@ -27,4 +27,4 @@ function performOperations(startingNumber, op1, op2, op3, op4, op5) {
     }
 }
 
-performOperations('9', 'dice', 'spice', 'chop', 'bake', 'fillet')
+// performOperations('9', 'dice', 'spice', 'chop', 'bake', 'fillet')
