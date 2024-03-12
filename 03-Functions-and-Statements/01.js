@@ -6,21 +6,22 @@
 // ▪ Grade >= 5.50 → Excellent
 
 function gradeFormatter(grade) {
-    let finalGrade = '';
 
     if (grade < 3.00) {
-        finalGrade = `Fail (${Math.floor(grade)})`
-    } else if (grade >= 3.00 && grade < 3.50) {
-        finalGrade = `Poor (${grade.toFixed(2)})`
-    } else if (grade >= 3.50 && grade < 4.50) {
-        finalGrade = `Good (${grade.toFixed(2)})`
-    } else if (grade >= 4.50 && grade < 5.50) {
-        finalGrade = `Very good (${grade.toFixed(2)})`
-    } else if (grade >= 5.50) {
-        finalGrade = `Excellent (${grade.toFixed(2)})`
+        return `Fail (${Math.floor(grade)})`
     }
-
-    return finalGrade;
+    if (grade >= 3.00 && grade < 3.50) {
+        return `Poor (${grade.toFixed(2)})`
+    }
+    if (grade >= 3.50 && grade < 4.50) {
+        return `Good (${grade.toFixed(2)})`
+    }
+    if (grade >= 4.50 && grade < 5.50) {
+        return `Very good (${grade.toFixed(2)})`
+    }
+    if (grade >= 5.50) {
+        return `Excellent (${grade.toFixed(2)})`
+    }
 }
 
 console.log(gradeFormatter(2.99));

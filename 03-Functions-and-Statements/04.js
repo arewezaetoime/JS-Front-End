@@ -1,6 +1,6 @@
-// import pass from test.js
-// import printFullName from test.js
-// import gradeFormatter from test.js
+import pass from test.js
+import printFullName from test.js
+import gradeFormatter from test.js
 
 
 function printCertificate(grade, nameArr) {

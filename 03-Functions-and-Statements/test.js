@@ -1,10 +1,10 @@
-function readFullName(arr) {
+function printFullName(arr) {
     return arr[0] + ' ' + arr[1];
 }
 
 // console.log(readFullName('sso', 'nka'));
 
-const fullName = readFullName(['sso', 'nka']);
+const fullName = printFullName(['sso', 'nka']);
 
 // console.log(fullName);
 
