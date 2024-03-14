@@ -2,7 +2,7 @@ function findAsciiRange(firstLetter, secondLetter) {
     const asciiNum1 = firstLetter.charCodeAt();
     const asciiNum2 = secondLetter.charCodeAt();
     
-    const floorValue = findTheLowestAsciiValue(firstLetter, secondLetter) + 1;
+    // const floorValue = findTheLowestAsciiValue(firstLetter, secondLetter) + 1;
     const ceilValue = Math.max(asciiNum1, asciiNum2);
 
     function findTheLowestAsciiValue(n1, n2) {
@@ -11,13 +11,9 @@ function findAsciiRange(firstLetter, secondLetter) {
 
     let result = [];
 
-    for (let i = floorValue; i < ceilValue; i++) {
+    for (let i = findTheLowestAsciiValue(asciiNum1, asciiNum2) + 1; i < ceilValue; i++) {
         result.push(String.fromCharCode(i));
     }
-
-    // for (let i = findTheLowestAsciiValue(asciiNum1, asciiNum2) + 1; i < ceilValue; i++) {
-    //     result.push(String.fromCharCode(i));
-    // }
 
     console.log(result.join(' '));
 }
