@@ -10,7 +10,7 @@ function showInventory(currentStockArr, deliveryOrderArr) {
 
     for (let i = 0; i < deliveryOrderArr.length; i += 2) {
         const product = deliveryOrderArr[i];
-        const quantity = Number(currentStockArr[i+1]);
+        const quantity = Number(deliveryOrderArr[i+1]);
 
         if (!store[product]) {
             store[product] = 0;
