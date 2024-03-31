@@ -1,6 +1,6 @@
 function extractText() {
-    const items = document.getElementById("items").textContent;
-    console.log(typeof items)
+    const itemsElements = document.getElementById("items");
+    
 }
 
 extractText()
