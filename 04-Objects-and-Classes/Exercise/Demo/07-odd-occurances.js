@@ -1,4 +1,4 @@
-function solve(input) {
+ееfunction solve(input) {
     const words = input.split(' ');
     const wordOccurances = {};
 
@@ -61,4 +61,4 @@ function fancySolve(input) {
     console.log(result);
 }
 
-mapSolve('Java C# Php PHP Java PhP 3 C# 3 1 5 C#');
+// mapSolve('Java C# Php PHP Java PhP 3 C# 3 1 5 C#');

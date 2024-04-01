@@ -62,3 +62,11 @@ function createPerson(fName, lName, age) {
 console.log(createPerson('Iliq', 'John', 20));
 
 
+
+let person22 = { name: 'Peter', age: 20, height: 183, hobby: 'haha' };
+
+console.log(Object.keys(person22));
+console.log(Object.values(person22));
+console.log(Object.entries(person22));
+
+

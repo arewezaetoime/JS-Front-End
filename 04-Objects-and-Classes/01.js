@@ -4,7 +4,7 @@ function createPerson(fName, lName, age) {
     person.LastName = lName;
     person.Age = age;
 
-    console.log(person);
+    return person;
 }
 
 console.log(createPerson('Iliq', 'John', 20));
