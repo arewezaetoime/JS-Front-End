@@ -2,7 +2,7 @@ function toggle() {
     const extraElement = document.getElementById('extra');
     const buttonElement = document.querySelector('.head span.button');
 
-    console.log(buttonElement);
+    // console.log(buttonElement);
 
     const currentButtonText = buttonElement.textContent
 
