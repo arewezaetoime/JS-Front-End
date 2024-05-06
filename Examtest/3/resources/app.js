@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     loadGames();
 
-    // Attach event listeners for form submit
     document.getElementById('game-form').addEventListener('submit', function(event) {
         event.preventDefault();
         const gameId = document.getElementById('game-id').value;
