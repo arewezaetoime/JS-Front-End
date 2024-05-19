@@ -12,3 +12,18 @@
         }
     }
 }
+
+
+{
+    "names": {
+        "id": 2,
+        "firstName": "Gosho",
+        "lastName": "Mosho",
+        "email": "gosho@gmail.com"
+    },
+    "archetypes": {
+        "one": "1",
+        "two": "2",
+        "three": "3",
+    }
+}
